@@ -1,3 +1,4 @@
+console.log('UserThingForm.js')
 import React, {useState, useEffect} from "react"
 
 const UserThingForm = ({ things, users, createUserThing })=> {

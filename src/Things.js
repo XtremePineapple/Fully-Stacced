@@ -1,3 +1,4 @@
+ console.log('Things.js')
 import React, {useState, useEffect} from "react"
 
 const Things = ({ things, users, userThings, destroyUserThing, destroyThing })=> {

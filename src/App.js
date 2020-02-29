@@ -1,6 +1,13 @@
+console.log('App.js')
 import React, {useState, useEffect} from "react"
-import ReactDOM from 'react-dom'
+// import ReactDOM from 'react-dom'
 import axios from 'axios'
+import UserForm from './UserForm'
+import ThingForm from './ThingForm'
+import UserThingForm from './UserThingForm'
+import Users from './Users'
+import Things from './Things'
+console.log('App imported')
 
 const App = ()=> {
   const [ error, setError ] = useState('');

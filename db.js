@@ -1,5 +1,7 @@
+console.log('db.js')
 const pg = require('pg');
-const client = new pg.Client(process.env.DATABASE_URL || 'postgres://localhost/acme_db');
+const client = new pg.Client(process.env.DATABASE_URL || 'postgres://kkeezwerjfjxhp:b20115e92388308a548533f7a9f5ca289eb8fe8970a8993cb87e42315246f663@ec2-35-172-85-250.compute-1.amazonaws.com:5432/d95iuv6ltk8und?ssl=true');
+// console.log('db.js 2')
 
 client.connect();
 

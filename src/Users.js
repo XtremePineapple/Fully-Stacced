@@ -1,3 +1,4 @@
+console.log('Users.js')
 import React, {useState, useEffect} from "react"
 
 const Users = ({ users, things, userThings, destroyUserThing, destroyUser })=> {

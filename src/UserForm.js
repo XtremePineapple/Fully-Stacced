@@ -1,3 +1,4 @@
+console.log('UserForm.js')
 import React, {useState, useEffect} from "react"
 
 const UserForm = ({ createUser })=> {
@@ -18,4 +19,3 @@ const UserForm = ({ createUser })=> {
 };
 
 export default UserForm
-

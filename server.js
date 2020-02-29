@@ -1,10 +1,13 @@
+console.log('server.js')
 const express = require('express');
 const app = express();
 const path = require('path');
 const db = require('./db');
 app.use(express.json());
+// console.log('server.js 2')
 
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
+app.use('/dist', express.static(path.join(__dirname, 'dist')));
 
 app.get('/', (req, res, next)=> {
   res.sendFile(path.join(__dirname, 'index.html'));
